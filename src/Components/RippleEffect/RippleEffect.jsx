@@ -209,7 +209,7 @@ export default function RippleEffect({ images, settings }) {
   const isPointerInsideRef = useRef(false);
 
   // Resolution for fluid simulation
-  const RESOLUTION = 512;
+  const RESOLUTION = 128;
   // les renders targets sont utilisés pour stocker
   // les états de la simulation de fluide à différentes étapes :
   // Buffer 0 (prev)    →  Lit l'état d'il y a 2 frames

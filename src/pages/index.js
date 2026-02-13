@@ -12,11 +12,11 @@ const images = ["/image2.png"];
 // const images = ["/gif.gif"];
 
 const rippleSettings = {
-  intensity: 0.12,
-  scale: 0.1,
+  intensity: 0.06,
+  scale: 0.05,
   viscosity: 0.89,
   decay: 0.98,
-  distortionStrength: 0.05,
+  distortionStrength: 0.1,
   aberration: 0.01,
   lightIntensity: 0.04,
   specularPower: 8.1,
